@@ -19,8 +19,6 @@ describe('ext', function() {
 
     it('# expect home ui is rendered', function() {
         expect(Ext.getCmp('app.home')).toBeDefined();
-        expect(true).toBe(true);
-        expect(false).toBe(false);
     });
 
 
